@@ -1,0 +1,32 @@
+body {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.title {
+  position: relative;
+  width: 49%;
+  height: 100%;
+}
+.title > h1,
+.titleImg {
+  position: relative;
+  top: 30px;
+  left: 200px;
+}
+.discript {
+  position: relative;
+  width: 49%;
+  height: 100%;
+}
+.discript > p {
+  position: relative;
+  left: 50px;
+  font-size: 30px;
+}
